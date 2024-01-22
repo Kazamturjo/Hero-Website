@@ -74,11 +74,11 @@ const Navbar = () => {
         <p className='hover:text-orange-500'>Contact</p>
       </div>
       <div className='hidden md:flex items-center gap-x-11'>
-        <p>Home</p>
-        <p>Package</p>
-        <p>Testimonial</p>
-        <p>Blog</p>
-        <p>Contact</p>
+        <p className='hover:text-orange-500 cursor-pointer'>Home</p>
+        <p className='hover:text-orange-500 cursor-pointer'>Package</p>
+        <p className='hover:text-orange-500 cursor-pointer'>Testimonial</p>
+        <p className='hover:text-orange-500 cursor-pointer'>Blog</p>
+        <p className='hover:text-orange-500 cursor-pointer'>Contact</p>
       </div>
     </div>
   );
