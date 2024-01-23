@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='text-center font-light'>
         <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo <br/> erat maecenas vitae elementum ultricies nullam. </p>
         </div>
-        <div className='flex justify-center gap-5 mt-4 m-4'>
+        <div className='flex justify-center gap-5 mt-9 m-4'>
             <img src='https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitter-icon.png' alt=''className='w-4'/>
             <img src='https://cdn-icons-png.flaticon.com/512/59/59439.png'alt=''className='w-4'/>
             <img src='https://cdn4.iconfinder.com/data/icons/social-media-black-white-2/600/Instagram_glyph_svg-512.png' alt='' className='w-4'/>

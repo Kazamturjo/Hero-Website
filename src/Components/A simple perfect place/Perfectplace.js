@@ -8,16 +8,16 @@ const Perfectplace = () => {
           <h2 className='text-4xl font-bold'>
             A Simple Perfect Place<br />To Get Lost
           </h2>
-          <p>
+          <p className='text-gray-500'>
             Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
             odio sit <br /> massa. Sodales dictumst nec nibh pellentesque.
           </p>
 
-          <li>
+          <li className='font-bold'>
             Adipiscing ornare pellentesque mauris volutpat tortor vitae platea{' '}
             <br /> porta lacus. Lectus suspendisse nullam.
           </li>
-          <li>
+          <li className='font-bold'>
             {' '}
             Accumsan eget et turpis praesent lorem egestas enim elit <br />{' '}
             bibendum. Risus at in.

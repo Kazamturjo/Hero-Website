@@ -7,7 +7,7 @@ const Deal = () => {
     <div className="relative space-y-10">
       <div className="text-center mt-20">
         <h2 className='text-4xl font-bold '>Deals & Discounts</h2>
-        <p>
+        <p className='text-gray-500 mt-4'>
           Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
           odio sit massa.
           <br />
@@ -27,26 +27,26 @@ const Deal = () => {
         {/* <div className="absolute inset-0 bg-white opacity-50 rounded-xl"></div> */}
 
         
-        <div className='sm:flex flex  sm:gap-10 '>
-          <img src='https://www.freestock.com/450/freestock_565311802.jpg'alt='' className='w-4 h-4'/>
+        <div className='sm:flex flex  sm:gap-3 items-center '>
+          <img src='https://www.freestock.com/450/freestock_565311802.jpg'alt='' className='w-6 h-6'/>
           
             
             <p className="text-sm sm:text-lg">7 Day / 6 Night</p>
 
               <img
                 src="https://icones.pro/wp-content/uploads/2021/03/icone-de-groupe-symbole-png-orange.png"
-                alt="" className='w-4 h-4'
+                alt="" className='w-5 h-5'
               />
             <p className="text-sm sm:text-lg">Max : 10</p>
 
               <img
                 src="https://i.pinimg.com/originals/43/d8/21/43d821d6b6d6e6c2424a9415a8e00ed0.png"
-                alt="" className='w-4 h-4'
+                alt="" className='w-5 h-5'
               />
             <p className="text-sm sm:text-lg">Malaysia</p>
           </div>
           <h2 className="sm:text-3xl text-xl font-bold sm:mt-5">Tour To Santorini</h2>
-          <p className="text-sm sm:mt-4 sm:text-lg">
+          <p className="text-sm sm:mt-4 sm:text-lg text-gray-500">
             Amet consectetur. Vulputate commodo felis molestie risus ornare nulla
             amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
             adipiscing.
@@ -74,26 +74,26 @@ const Deal = () => {
         {/* <div className="absolute inset-0 bg-white opacity-50 rounded-xl"></div> */}
 
         
-        <div className='sm:flex flex  sm:gap-10 '>
-          <img src='https://www.freestock.com/450/freestock_565311802.jpg'alt='' className='w-4 h-4'/>
+        <div className='sm:flex flex  sm:gap-4 items-center '>
+          <img src='https://www.freestock.com/450/freestock_565311802.jpg'alt='' className='w-6 h-6'/>
           
             
             <p className="text-sm sm:text-lg">7 Day / 6 Night</p>
 
               <img
                 src="https://icones.pro/wp-content/uploads/2021/03/icone-de-groupe-symbole-png-orange.png"
-                alt="" className='w-4 h-4'
+                alt="" className='w-5 h-5'
               />
             <p className="text-sm sm:text-lg">Max : 10</p>
 
               <img
                 src="https://i.pinimg.com/originals/43/d8/21/43d821d6b6d6e6c2424a9415a8e00ed0.png"
-                alt="" className='w-4 h-4'
+                alt="" className='w-5 h-5'
               />
             <p className="text-sm sm:text-lg">Malaysia</p>
           </div>
           <h2 className="sm:text-3xl text-xl font-bold sm:mt-5">Tour To Santorini</h2>
-          <p className="text-sm sm:mt-4 sm:text-lg">
+          <p className="text-sm sm:mt-4 sm:text-lg text-gray-500">
             Amet consectetur. Vulputate commodo felis molestie risus ornare nulla
             amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
             adipiscing.
@@ -121,26 +121,26 @@ const Deal = () => {
 {/* <div className="absolute inset-0 bg-white opacity-50 rounded-xl"></div> */}
 
 
-<div className='sm:flex flex  sm:gap-10 '>
-  <img src='https://www.freestock.com/450/freestock_565311802.jpg'alt='' className='w-4 h-4'/>
+<div className='sm:flex flex  sm:gap-4 items-center'>
+  <img src='https://www.freestock.com/450/freestock_565311802.jpg'alt='' className='w-6 h-6'/>
   
     
     <p className="text-sm sm:text-lg">7 Day / 6 Night</p>
 
       <img
         src="https://icones.pro/wp-content/uploads/2021/03/icone-de-groupe-symbole-png-orange.png"
-        alt="" className='w-4 h-4'
+        alt="" className='w-5 h-5'
       />
     <p className="text-sm sm:text-lg">Max : 10</p>
 
       <img
         src="https://i.pinimg.com/originals/43/d8/21/43d821d6b6d6e6c2424a9415a8e00ed0.png"
-        alt="" className='w-4 h-4'
+        alt="" className='w-5 h-5'
       />
     <p className="text-sm sm:text-lg">Malaysia</p>
   </div>
   <h2 className="sm:text-3xl text-xl font-bold sm:mt-5">Tour To Santorini</h2>
-  <p className="text-sm sm:mt-4 sm:text-lg">
+  <p className="text-sm sm:mt-4 sm:text-lg text-gray-500">
     Amet consectetur. Vulputate commodo felis molestie risus ornare nulla
     amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
     adipiscing.

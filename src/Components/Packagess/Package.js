@@ -5,8 +5,8 @@ const Package = () => {
   return (
     <div className='mt-16 sm:mt-20 sm:mx-10'>
       <div className='grid sm:grid-cols-2 sm:space-x-52 sm:m-0 m-4 sm:space-y-0 space-y-9 '>
-        <div className=' space-y-7'>
-            <h2 className='text-4xl font-bold'>Our Popular Tours</h2>
+        <div className=' space-y-7 text-gray-500'>
+            <h2 className='text-4xl font-bold text-black'>Our Popular Tours</h2>
           <p>
             Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
             odio sit  massa. Sodales dictumst nec nibh pellentesque.

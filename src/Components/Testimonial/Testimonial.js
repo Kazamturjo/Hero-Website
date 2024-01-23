@@ -13,7 +13,7 @@ const Testimonial = () => {
       <div>
         <div className="text-center">
           <h2 className="text-4xl font-bold ">Choose Your Destination</h2>
-          <p className='mt-7'>
+          <p className='mt-7 text-gray-500'>
             Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
             odio sit massa.
             <br /> Sodales dictumst nec nibh pellentesque.
@@ -25,7 +25,10 @@ const Testimonial = () => {
               <h2 className="absolute font-bold text-white sm:top-48 sm:left-72 text-3xl  group-hover:opacity-100">
                 Maldives
               </h2>
+              
+
               <img src={maldiv} alt="maldiv" className="w-full" />
+              
             </div>
             <div className="relative group transform hover:scale-105 transition-transform duration-300">
               <h2 className="absolute font-bold text-white sm:top-48 sm:left-72 text-3xl  group-hover:opacity-100 ">
@@ -34,27 +37,30 @@ const Testimonial = () => {
               <img src={indo} alt="indo" className="w-full" />
             </div>
           </div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 sm:w-full sm:space-y-10">
-            <div className="relative group transform hover:scale-105 transition-transform duration-300 mt-9">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-7 lg:grid-cols-3  sm:w-full sm:space-y-2">
+            <div className="relative group transform hover:scale-105 transition-transform duration-300 sm:mt-2 mt-9">
               <h2 className="absolute font-bold text-white sm:top-40 sm:left-40 text-3xl  group-hover:opacity-100">
                 Srilanka
               </h2>
-              <div className="sm:w-4/5">
-                <img src={srilan} alt="srilan" className="sm:w-full" />
+              <div className="sm:w-[]">
+                <img src={srilan} alt="srilan" className="sm:w-full sm:h-[360px]" />
               </div>
             </div>
             <div className="relative group transform hover:scale-105 transition-transform duration-300">
               <h2 className="absolute font-bold text-white sm:top-40 sm:left-40 text-3xl  group-hover:opacity-100">
                 North America
               </h2>
-              <img src={north} alt="north" className="sm:w-full" />
+              <div className='sm:w-[600px]'>
+
+              <img src={north} alt="north" className="sm:w-full " />
+              </div>
             </div>
             <div className="sm:space-x-4 lg:space-x-28 relative group transform hover:scale-105 transition-transform duration-300">
-              <h2 className="absolute font-bold text-white sm:top-40 sm:left-56 text-3xl  group-hover:opacity-100">
+              <h2 className="absolute font-bold text-white sm:top-36 sm:left-60 text-3xl  group-hover:opacity-100">
                 Kashmir
               </h2>
-              <div className="sm:w-2/3">
-                <img src={kashmir} alt="kashmir" className="w-full" />
+              <div className="sm:w-[] sm:h-[300px]">
+                <img src={kashmir} alt="kashmir" className=" object-fill sm:h-[360px] w-full " />
               </div>
             </div>
           </div>
